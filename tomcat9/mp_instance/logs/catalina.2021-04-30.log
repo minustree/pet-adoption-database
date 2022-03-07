@@ -1,0 +1,1151 @@
+30-Apr-2021 00:09:30.181 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:09:30.182 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:09:30.187 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:09:30.194 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:09:30.202 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:09:30.204 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:09:31.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:09:31.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:09:31.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:09:31.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:09:31.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:09:31.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:09:31.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:09:31.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:09:31.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:09:31.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:09:31.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:09:31.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:09:31.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:09:31.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:09:31.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:09:31.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:09:31.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:09:31.661 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:09:31.689 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:09:31.725 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [431] milliseconds
+30-Apr-2021 00:09:31.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:09:31.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:09:31.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:09:32.695 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:09:32.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [956] ms
+30-Apr-2021 00:09:32.736 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:09:32.753 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,028] milliseconds
+30-Apr-2021 00:12:32.723 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:12:32.724 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:12:32.730 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:12:32.736 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:12:32.742 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:12:32.743 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:12:34.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:12:34.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:12:34.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:12:34.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:12:34.219 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:12:34.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:12:34.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:12:34.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:12:34.221 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:12:34.248 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:12:34.284 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [436] milliseconds
+30-Apr-2021 00:12:34.338 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:12:34.338 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:12:34.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:12:35.540 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:12:35.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,245] ms
+30-Apr-2021 00:12:35.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:12:35.603 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,318] milliseconds
+30-Apr-2021 00:15:38.659 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:15:38.660 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:15:38.666 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:15:38.671 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:15:38.678 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:15:38.680 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:15:40.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:15:40.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:15:40.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:15:40.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:15:40.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:15:40.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:15:40.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:15:40.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:15:40.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:15:40.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:15:40.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:15:40.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:15:40.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:15:40.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:15:40.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:15:40.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:15:40.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:15:40.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:15:40.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:15:40.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:15:40.580 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [436] milliseconds
+30-Apr-2021 00:15:40.632 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:15:40.632 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:15:40.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:15:41.570 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:15:41.607 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [968] ms
+30-Apr-2021 00:15:41.611 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:15:41.620 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,040] milliseconds
+30-Apr-2021 00:16:57.857 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:16:57.857 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:16:57.864 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:16:57.871 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:16:57.878 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:16:57.879 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:17:00.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:17:00.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:17:00.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:17:00.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:17:00.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:17:00.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:17:00.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:17:00.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:17:00.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:17:00.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:17:00.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:17:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:17:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:17:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:17:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:17:00.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:17:00.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:17:00.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:17:00.514 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:17:00.548 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:17:00.583 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [437] milliseconds
+30-Apr-2021 00:17:00.626 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:17:00.626 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:17:00.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:17:01.538 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:17:01.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [941] ms
+30-Apr-2021 00:17:01.577 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:17:01.593 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,009] milliseconds
+30-Apr-2021 00:18:08.519 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:18:08.520 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:18:08.526 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:18:08.532 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:18:08.539 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:18:08.540 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:18:10.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:18:10.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:18:10.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:18:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:18:10.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:18:10.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:18:10.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:18:10.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:18:10.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:18:10.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:18:10.358 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:18:10.391 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:18:10.426 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [423] milliseconds
+30-Apr-2021 00:18:10.495 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:18:10.495 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:18:10.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:18:11.467 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:18:11.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [972] ms
+30-Apr-2021 00:18:11.512 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:18:11.519 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,092] milliseconds
+30-Apr-2021 00:19:17.878 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:19:17.879 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:19:17.885 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:19:17.894 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:19:17.900 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:19:17.901 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:19:19.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:19:19.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:19:19.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:19:19.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:19:19.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:19:19.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:19:19.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:19:19.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:19:19.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:19:19.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:19:19.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:19:19.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:19:19.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:19:19.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:19:19.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:19:19.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:19:19.287 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:19:19.314 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:19:19.354 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [441] milliseconds
+30-Apr-2021 00:19:19.410 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:19:19.410 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:19:19.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:19:20.337 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:19:20.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [957] ms
+30-Apr-2021 00:19:20.377 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:19:20.387 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,032] milliseconds
+30-Apr-2021 00:23:35.588 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:23:35.589 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:23:35.595 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:23:35.603 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:23:35.609 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:23:35.611 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:23:36.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:23:36.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:23:36.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:23:36.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:23:36.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:23:36.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:23:36.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:23:36.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:23:36.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:23:36.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:23:36.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:23:36.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:23:36.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:23:36.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:23:36.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:23:36.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:23:36.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:23:36.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:23:36.982 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:23:37.012 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:23:37.047 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [441] milliseconds
+30-Apr-2021 00:23:37.097 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:23:37.097 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:23:37.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:23:38.081 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:23:38.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,014] ms
+30-Apr-2021 00:23:38.120 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:23:38.129 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,082] milliseconds
+30-Apr-2021 00:24:16.887 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:24:16.888 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:24:16.894 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:24:16.918 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:24:16.923 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:24:16.925 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:24:18.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:24:18.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:24:18.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:24:18.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:24:18.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:24:18.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:24:18.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:24:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:24:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:24:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:24:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:24:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:24:18.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:24:18.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:24:18.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:24:18.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:24:18.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:24:18.255 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:24:18.282 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:24:18.313 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [415] milliseconds
+30-Apr-2021 00:24:18.360 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:24:18.360 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:24:18.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:24:19.306 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:24:19.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [979] ms
+30-Apr-2021 00:24:19.349 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:24:19.354 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,041] milliseconds
+30-Apr-2021 00:26:19.044 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:26:19.045 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:26:19.051 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:26:19.056 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:26:19.063 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:26:19.065 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:26:20.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:26:20.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:26:20.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:26:20.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:26:20.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:26:20.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:26:20.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:26:20.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:26:20.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:26:20.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:26:20.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:26:20.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:26:20.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:26:20.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:26:20.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:26:20.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:26:20.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:26:20.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:26:20.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:26:20.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:26:20.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:26:20.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:26:20.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:26:20.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:26:20.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:26:20.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:26:20.537 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:26:20.576 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [425] milliseconds
+30-Apr-2021 00:26:20.618 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:26:20.618 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:26:20.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:26:21.578 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:26:21.622 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [998] ms
+30-Apr-2021 00:26:21.626 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:26:21.636 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,059] milliseconds
+30-Apr-2021 00:27:01.473 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:27:01.474 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:01.480 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:27:01.543 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:27:01.548 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:01.550 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:02.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:27:02.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:27:02.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:27:02.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:27:02.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:27:02.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:27:02.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:27:02.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:27:02.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:27:02.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:27:02.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:27:02.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:27:02.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:27:02.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:27:02.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:27:02.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:27:02.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:27:02.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:27:02.788 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:27:02.815 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:02.846 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [418] milliseconds
+30-Apr-2021 00:27:02.889 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:27:02.889 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:27:02.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:27:03.847 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:27:03.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [989] ms
+30-Apr-2021 00:27:03.886 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:03.896 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,050] milliseconds
+30-Apr-2021 00:27:39.053 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:27:39.054 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:39.060 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:27:39.073 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:27:39.077 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:39.079 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:40.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:27:40.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:27:40.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:27:40.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:27:40.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:27:40.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:27:40.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:27:40.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:27:40.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:27:40.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:27:40.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:27:40.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:27:40.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:27:40.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:27:40.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:27:40.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:27:40.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:27:40.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:27:40.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:27:40.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:27:40.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:27:40.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:27:40.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:27:40.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:27:40.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:27:40.419 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:27:40.447 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:40.490 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [423] milliseconds
+30-Apr-2021 00:27:40.534 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:27:40.534 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:27:40.540 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:27:41.428 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:27:41.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [922] ms
+30-Apr-2021 00:27:41.465 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:27:41.475 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [984] milliseconds
+30-Apr-2021 00:30:00.390 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:30:00.391 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:00.397 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:30:00.402 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:30:00.408 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:00.410 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:02.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:30:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:30:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:30:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:30:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:30:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:30:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:30:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:30:02.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:30:02.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:30:02.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:30:02.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:30:02.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:30:02.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:30:02.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:30:02.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:30:02.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:30:02.172 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:30:02.199 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:02.229 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [414] milliseconds
+30-Apr-2021 00:30:02.275 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:30:02.275 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:30:02.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:30:03.192 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:30:03.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [950] ms
+30-Apr-2021 00:30:03.237 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:03.248 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,018] milliseconds
+30-Apr-2021 00:30:39.332 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:30:39.333 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:39.340 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:30:39.405 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:39.408 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:40.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:30:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:30:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:30:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:30:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:30:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:30:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:30:40.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:30:40.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:30:40.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:30:40.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:30:40.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:30:40.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:30:40.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:30:40.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:30:40.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:30:40.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:30:40.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:30:40.688 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:30:40.717 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:40.749 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [418] milliseconds
+30-Apr-2021 00:30:40.794 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:30:40.795 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:30:40.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:30:41.703 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:30:41.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [953] ms
+30-Apr-2021 00:30:41.760 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:30:41.797 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,047] milliseconds
+30-Apr-2021 00:31:02.703 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:31:02.704 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:02.711 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:31:02.742 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:02.744 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:04.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:31:04.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:31:04.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:31:04.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:31:04.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:31:04.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:31:04.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:31:04.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:31:04.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:31:04.288 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:31:04.315 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:04.348 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [415] milliseconds
+30-Apr-2021 00:31:04.391 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:31:04.391 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:31:04.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:31:05.298 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:31:05.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [948] ms
+30-Apr-2021 00:31:05.349 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:05.356 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,007] milliseconds
+30-Apr-2021 00:31:43.090 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:31:43.091 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:43.097 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:31:43.118 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:31:43.125 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:43.126 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:44.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:31:44.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:31:44.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:31:44.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:31:44.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:31:44.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:31:44.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:31:44.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:31:44.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:31:44.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:31:44.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:31:44.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:31:44.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:31:44.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:31:44.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:31:44.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:31:44.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:31:44.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:31:44.649 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:31:44.677 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:44.716 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [422] milliseconds
+30-Apr-2021 00:31:44.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:31:44.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:31:44.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:31:45.656 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:31:45.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [925] ms
+30-Apr-2021 00:31:45.703 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:31:45.709 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [992] milliseconds
+30-Apr-2021 00:41:08.394 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:41:08.395 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:41:08.401 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:41:08.426 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:41:08.432 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:41:08.434 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:41:09.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:41:09.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:41:09.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:41:09.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:41:09.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:41:09.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:41:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:41:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:41:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:41:09.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:41:09.852 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:41:09.879 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:41:09.916 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [419] milliseconds
+30-Apr-2021 00:41:09.962 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:41:09.963 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:41:09.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:41:10.861 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:41:10.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [940] ms
+30-Apr-2021 00:41:10.911 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:41:10.920 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,003] milliseconds
+30-Apr-2021 00:43:10.610 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:43:10.611 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:43:10.617 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:43:10.663 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:43:10.670 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:43:10.672 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:43:12.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:43:12.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:43:12.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:43:12.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:43:12.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:43:12.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:43:12.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:43:12.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:43:12.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:43:12.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:43:12.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:43:12.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:43:12.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:43:12.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:43:12.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:43:12.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:43:12.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:43:12.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:43:12.040 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:43:12.075 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:43:12.108 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [427] milliseconds
+30-Apr-2021 00:43:12.153 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:43:12.153 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:43:12.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:43:13.115 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:43:13.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,004] ms
+30-Apr-2021 00:43:13.166 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:43:13.180 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,071] milliseconds
+30-Apr-2021 00:47:23.679 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:47:23.680 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:47:23.686 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:47:23.739 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:47:23.745 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:47:23.748 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:47:25.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:47:25.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:47:25.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:47:25.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:47:25.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:47:25.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:47:25.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:47:25.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:47:25.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:47:25.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:47:25.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:47:25.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:47:25.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:47:25.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:47:25.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:47:25.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:47:25.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:47:25.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:47:25.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:47:25.268 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:47:25.309 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [432] milliseconds
+30-Apr-2021 00:47:25.353 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:47:25.353 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:47:25.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:47:26.298 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:47:26.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [984] ms
+30-Apr-2021 00:47:26.347 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:47:26.353 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,043] milliseconds
+30-Apr-2021 00:50:31.535 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:50:31.536 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:50:31.541 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:50:31.565 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:50:31.574 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:50:31.576 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:50:32.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:50:32.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:50:32.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:50:32.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:50:32.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:50:32.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:50:32.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:50:32.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:50:32.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:50:32.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:50:32.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:50:32.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:50:32.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:50:32.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:50:32.960 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:50:32.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:50:33.029 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [436] milliseconds
+30-Apr-2021 00:50:33.083 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:50:33.083 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:50:33.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:50:34.059 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:50:34.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,016] ms
+30-Apr-2021 00:50:34.109 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:50:34.119 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,088] milliseconds
+30-Apr-2021 00:53:28.946 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:53:28.947 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:53:28.953 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:53:28.975 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:53:28.984 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:53:28.986 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:53:30.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:53:30.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:53:30.190 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:53:30.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:53:30.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:53:30.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:53:30.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:53:30.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:53:30.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:53:30.193 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:53:30.220 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:53:30.250 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [412] milliseconds
+30-Apr-2021 00:53:30.320 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:53:30.320 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:53:30.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:53:31.260 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:53:31.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [961] ms
+30-Apr-2021 00:53:31.309 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:53:31.314 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,063] milliseconds
+30-Apr-2021 00:56:59.726 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:56:59.727 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:56:59.732 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:56:59.771 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:56:59.781 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:56:59.782 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:01.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:57:01.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:57:01.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:57:01.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:57:01.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:57:01.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:57:01.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:57:01.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:57:01.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:57:01.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:57:01.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:57:01.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:57:01.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:57:01.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:57:01.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:57:01.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:57:01.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:57:01.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:57:01.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:57:01.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:57:01.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:57:01.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:57:01.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:57:01.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:57:01.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:57:01.261 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:57:01.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:01.318 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [433] milliseconds
+30-Apr-2021 00:57:01.361 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:57:01.361 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:57:01.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:57:02.335 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:57:02.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,013] ms
+30-Apr-2021 00:57:02.383 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:02.397 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,078] milliseconds
+30-Apr-2021 00:57:33.118 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 00:57:33.119 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:33.125 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 00:57:33.160 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 00:57:33.168 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:33.170 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 00:57:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 00:57:34.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:57:34.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 00:57:34.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 00:57:34.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 00:57:34.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 00:57:34.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 00:57:34.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 00:57:34.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 00:57:34.379 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 00:57:34.415 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:34.438 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [423] milliseconds
+30-Apr-2021 00:57:34.480 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 00:57:34.480 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 00:57:34.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 00:57:35.437 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 00:57:35.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,007] ms
+30-Apr-2021 00:57:35.496 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 00:57:35.506 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,067] milliseconds
+30-Apr-2021 01:00:32.439 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 01:00:32.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:00:32.446 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 01:00:32.480 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 01:00:32.490 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:00:32.492 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:00:33.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 01:00:33.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:00:33.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 01:00:33.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 01:00:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:00:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 01:00:33.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 01:00:33.952 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 01:00:33.984 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:00:34.018 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [429] milliseconds
+30-Apr-2021 01:00:34.058 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 01:00:34.059 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 01:00:34.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 01:00:35.020 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 01:00:35.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,011] ms
+30-Apr-2021 01:00:35.079 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:00:35.089 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,070] milliseconds
+30-Apr-2021 01:07:54.002 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 01:07:54.002 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:07:54.008 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 01:07:54.060 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 01:07:54.068 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:07:54.070 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:07:55.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 01:07:55.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:07:55.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 01:07:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 01:07:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 01:07:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 01:07:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 01:07:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 01:07:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 01:07:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 01:07:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 01:07:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 01:07:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 01:07:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 01:07:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:07:55.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 01:07:55.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 01:07:55.287 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 01:07:55.314 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:07:55.344 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [415] milliseconds
+30-Apr-2021 01:07:55.386 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 01:07:55.386 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 01:07:55.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 01:07:56.307 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 01:07:56.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [963] ms
+30-Apr-2021 01:07:56.358 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:07:56.364 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,019] milliseconds
+30-Apr-2021 01:13:28.007 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 01:13:28.008 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:13:28.014 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 01:13:28.053 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 01:13:28.060 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:13:28.061 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:13:29.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 01:13:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 01:13:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 01:13:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 01:13:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 01:13:29.192 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 01:13:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 01:13:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 01:13:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 01:13:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:13:29.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 01:13:29.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 01:13:29.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 01:13:29.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 01:13:29.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 01:13:29.196 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 01:13:29.233 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:13:29.254 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [417] milliseconds
+30-Apr-2021 01:13:29.324 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 01:13:29.325 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 01:13:29.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 01:13:30.246 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 01:13:30.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [959] ms
+30-Apr-2021 01:13:30.293 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:13:30.299 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,044] milliseconds
+30-Apr-2021 01:16:33.640 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 01:16:33.641 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:16:33.646 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 01:16:33.668 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 01:16:33.675 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:16:33.676 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:16:35.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 01:16:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 01:16:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 01:16:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 01:16:35.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 01:16:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 01:16:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 01:16:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 01:16:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 01:16:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:16:35.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 01:16:35.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 01:16:35.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 01:16:35.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 01:16:35.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 01:16:35.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 01:16:35.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 01:16:35.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 01:16:35.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 01:16:35.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 01:16:35.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 01:16:35.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 01:16:35.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:16:35.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 01:16:35.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 01:16:35.171 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 01:16:35.202 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:16:35.234 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [422] milliseconds
+30-Apr-2021 01:16:35.275 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 01:16:35.275 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 01:16:35.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 01:16:36.207 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 01:16:36.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [978] ms
+30-Apr-2021 01:16:36.263 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:16:36.271 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,036] milliseconds
+30-Apr-2021 01:19:16.606 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 01:19:16.607 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:19:16.613 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 01:19:16.635 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 01:19:16.641 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:19:16.645 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:19:17.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 01:19:17.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:19:17.981 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 01:19:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 01:19:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 01:19:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 01:19:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 01:19:17.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:19:17.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 01:19:17.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 01:19:17.984 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 01:19:18.012 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:19:18.050 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [428] milliseconds
+30-Apr-2021 01:19:18.252 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 01:19:18.252 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 01:19:18.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 01:19:19.330 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 01:19:19.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,032] ms
+30-Apr-2021 01:19:19.379 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:19:19.386 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,334] milliseconds
+30-Apr-2021 01:20:37.566 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 01:20:37.567 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:20:37.574 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 01:20:37.635 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:20:37.638 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:20:38.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16 (Ubuntu)
+30-Apr-2021 01:20:38.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 11 2019 19:47:51 UTC
+30-Apr-2021 01:20:38.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+30-Apr-2021 01:20:38.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2021 01:20:38.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-140-generic
+30-Apr-2021 01:20:38.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2021 01:20:38.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2021 01:20:38.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.18.04
+30-Apr-2021 01:20:38.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2021 01:20:38.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:20:38.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+30-Apr-2021 01:20:38.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Apr-2021 01:20:38.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Apr-2021 01:20:38.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Apr-2021 01:20:38.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/miatran/tomcat9/mp_instance/conf/logging.properties
+30-Apr-2021 01:20:38.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2021 01:20:38.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+30-Apr-2021 01:20:38.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+30-Apr-2021 01:20:38.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2021 01:20:38.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2021 01:20:38.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2021 01:20:38.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+30-Apr-2021 01:20:38.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/miatran/tomcat9/mp_instance
+30-Apr-2021 01:20:38.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+30-Apr-2021 01:20:38.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/miatran/tomcat9/mp_instance/temp
+30-Apr-2021 01:20:38.784 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2021 01:20:38.810 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:20:38.846 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [445] milliseconds
+30-Apr-2021 01:20:38.899 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2021 01:20:38.899 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16 (Ubuntu)]
+30-Apr-2021 01:20:38.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular]
+30-Apr-2021 01:20:39.868 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2021 01:20:39.915 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/miatran/tomcat9/mp_instance/webapps/SonoranCellular] has finished in [1,009] ms
+30-Apr-2021 01:20:39.918 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:20:39.924 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,077] milliseconds
+30-Apr-2021 01:22:20.185 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2021 01:22:20.185 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:22:20.191 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2021 01:22:20.260 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SonoranCellular] registered the JDBC driver [oracle.jdbc.driver.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2021 01:22:20.267 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-28230"]
+30-Apr-2021 01:22:20.268 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-28230"]
