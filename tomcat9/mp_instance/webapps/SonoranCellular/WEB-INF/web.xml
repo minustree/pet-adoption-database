@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+     PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddIndividualServlet</servlet-name>
+		<servlet-class>AddIndividualServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AdopterListServlet</servlet-name>
+		<servlet-class>AdopterListServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>PetListServlet</servlet-name>
+		<servlet-class>PetListServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddFavPetServlet</servlet-name>
+		<servlet-class>AddFavPetServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ProfileServlet</servlet-name>
+		<servlet-class>ProfileServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>AddPetServlet</servlet-name>
+		<servlet-class>AddPetServlet</servlet-class>
+	</servlet>
+	
+
+	<servlet-mapping>
+		<servlet-name>ProfileServlet</servlet-name>
+		<url-pattern>/ProfileServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AddIndividualServlet</servlet-name>
+		<url-pattern>/AddIndividualServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>	
+
+	<servlet-mapping>
+		<servlet-name>AdopterListServlet</servlet-name>
+		<url-pattern>/AdopterListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>PetListServlet</servlet-name>
+		<url-pattern>/PetListServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AddFavPetServlet</servlet-name>
+		<url-pattern>/AddFavPetServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>AddPetServlet</servlet-name>
+		<url-pattern>/AddPetServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
